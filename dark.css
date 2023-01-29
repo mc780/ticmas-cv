@@ -1,0 +1,151 @@
+#modo{
+    width: 30px;
+    font-size: 50px;
+    margin: auto;
+    cursor: pointer;
+    padding-left: 100px;
+}
+
+.dark{
+    background: #121212;
+}
+
+.dark #modo{
+    color: orange;
+}
+
+/* --- GENERALES --- */
+
+.dark h1 {
+  color: #a4a5a6; ;
+}
+
+.dark h2 {
+  color: #888888; 
+}
+
+.dark h3 {
+  color:#646464;
+}
+
+.dark h4 {
+  color: #646464;
+}
+
+.dark .descripcion {
+  color: #a4a5a6;
+}
+
+.dark p{
+  color:#d3d3d3;
+}
+
+.dark .home__descripcion{
+  color:#a4a5a6;
+}
+
+.dark .home__t1{
+  color:#d3d3d3;
+}
+
+.dark .boton__{
+  color: rgb(36, 35, 41);
+  background-color: #bb86FC;
+}
+
+.dark #boton__input{
+  color: rgb(36, 35, 41);
+  background-color: #bb86FC;
+}
+
+/* --- BARRA DE NAVEGACION --- */
+
+.dark .header{
+  background-color: #242424;
+}
+
+.dark .navbar-toggler{
+  background-color: #d3d3d3;
+}
+
+.dark .navbar{
+  background-color: #242424;
+}
+
+.dark .nav__link {
+  color:  #d3d3d3;
+}
+
+/* -- TiTulo/sombra --*/
+
+.dark .section__titulo_1 {
+  color: #a4a5a6;
+}
+
+.dark .btm-border{
+  border-bottom: 1px solid #727272;
+}
+
+.dark .experiencia__item{
+  border-bottom: 1px solid #727272;
+}
+
+/*---HABILIDADES--*/
+
+.dark .item__habilidades {
+  background-color: #242424;
+}
+
+.dark .educacion__periodo{
+  color:#a4a5a6; 
+}
+
+/* --- CONTACTO --- */
+
+.dark .form-group {
+  color:#a4a5a6; 
+}
+
+.dark .form-control {
+  background-color: #242424;
+  color: #121212;
+}
+
+/* --- FOOTER --- */
+.dark .footer {
+  background-color: #242424;
+  }
+
+  .dark .nombrelg {
+  color: #a3a5a6;
+}
+
+.dark .footer__link {
+  color: #a3a5a6;
+}
+
+.dark .footer__titulo {
+  color: #a3a5a6;
+}
+
+.dark .footer__social {
+  color: #a3a5a6;
+}
+
+.dark .footer__copy {
+  color: #a3a5a6;
+}
+
+/* --- BOTONES --- */
+
+.dark .button {
+  background-color: #bb86FC;
+  color:rgb(36, 35, 41);
+}
+
+.dark #myBtn {
+  color: #e0a80d; /* Text color */
+}
+
+
+

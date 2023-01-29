@@ -1,0 +1,448 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+/* --- GENERALES --- */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a{
+  text-decoration-line: none;
+  text-decoration-color: none;
+}
+
+#home__img{
+  padding-top:7rem;
+}
+
+.container {
+  width: auto;
+  position: relative;
+  padding-top: 4rem 4rem;
+  padding-bottom: 4rem 4rem;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-top: 0;
+  padding-bottom: 4rem;
+  color: rgb(36, 35, 41);
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-top: 0;
+  color: rgb(36, 35, 41);
+}
+
+h3 {
+  display: block;
+  font-size: 20px;
+  font-weight: 500;
+  color: rgb(94, 92, 102);
+}
+
+h4 {
+  display: block;
+  font-size: 15px;
+  font-weight: 500;
+  color: rgb(94, 92, 102);
+}
+
+.descripcion {
+  color: rgb(94, 92, 102);
+  padding-top: 80px;
+  margin-bottom: 32px;
+  display: block;
+  font-size: 16px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+body {
+    scroll-behavior: smooth;
+    font-family: Poppins, sans-serif;
+    font-size: 1em;
+    text-rendering: optimizeLegibility;
+      background-color: rgb(251, 251, 254);
+}
+
+p{
+  color:rgb(36, 35, 41);
+}
+
+.home__descripcion{
+  color:rgb(36, 35, 41);
+}
+
+.boton__{
+  margin-top: 2rem;
+  font-weight: 500;
+  color: rgb(240,238,252);
+  background-color: rgb(110, 87, 224);
+  border:none;
+  border-radius: 40px;
+}
+
+#boton__input{
+  margin-top: 2rem;
+  font-weight: 500;
+  background-color: rgb(110, 87, 224);
+  color:white;
+}
+
+/* --- BARRA DE NAVEGACION --- */
+
+.header{
+  padding: 0 1rem;
+  top:0;
+  left:0;
+  right:0;
+  z-index:100;
+  width:903px;
+  position:fixed;
+  bottom:initial;
+  color:rgb(36, 35, 41);
+  background-color: rgb(251, 251, 254);
+  box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index:1000;
+  justify-content: center;
+  width: 100%;
+}
+
+.nav__list {
+  display: flex;
+  font-family: Poppins, sans-serif;
+  align-items: center;
+  list-style-type: none;
+  flex-direction: row;
+  text-decoration-style: solid;
+  gap: 2rem;  
+}
+
+.nav__link {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+  text-decoration-line: none;
+  text-decoration-style: solid;
+  font-size: 16px;
+  cursor: pointer;
+  color: rgb(36, 35, 41);
+}
+
+.nav__icono {
+  display: none;
+}
+
+/* -- TiTulo/sombra --*/
+
+.section__titulo_1 {
+  font-size: 4.5em;
+  font-weight: 800;
+  margin-bottom: 2rem;
+  background-clip: text;
+  opacity: 0.1;
+  color: rgb(110,87,224);
+  text-align: center;
+}
+
+.section__titulo_2 {
+  font-size: 2.5em;
+  font-weight: 800;
+  transform: translateY(-90px);
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+/*---HABILIDADES--*/
+
+.section__habilidades {
+  padding-top: 50px;
+  display: block;
+  font-size: 14px;
+  line-height: 23px;
+  padding-bottom: 80px;
+}
+
+.item__habilidades {
+  text-align: center;
+  margin-top: 60px;
+  padding: 50px 35px;
+  border-radius: 10px;
+  transition: all 300ms linear 0s;
+  margin-bottom: 30px;
+  background-color: white;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+
+.item__habilidades h4 {
+  font-size: 21px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+/* --- HOME / SOBRE MI ---*/
+
+.section-home {
+  margin-top: 6rem;
+}
+
+.home__intro {
+  margin-top: 6rem;
+  line-height: 26px;
+}
+
+.home__t1,
+.home__t2 {
+  text-align: left;
+}
+
+.sobre__mi {
+  margin-top: 9em;
+  margin-bottom: 100px;
+}
+
+.sobremi__content__info {
+  line-height: 26px;
+}
+
+
+/*-- EXPERIENCIA --*/
+
+
+
+.experiencia {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  display: block;
+  font-size: 16px;
+  line-height: 25px;
+  font-weight: 400;
+  
+}
+
+.periodo {
+  font-size: 0.85em;
+  float: right;
+  font-weight: bold;
+  margin-top: 4px;
+  opacity: 0.8;
+}
+
+.experiencia__item {
+  padding-top: 10px;
+  padding-bottom: 5px;
+  margin-bottom: 25px;
+  border-bottom: 1px solid #e2e4e4;
+}
+
+/* -- EDUCACION --*/
+.section__educacion {
+  padding-bottom: 10px;
+  padding-top: 50px;
+  font-weight: 300px;
+  line-height: 23px;
+}
+
+.ed-left,.ed-right {
+  max-width: 50%;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+  width: 570px;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 23px;
+}
+
+.educacion__item {
+  display: block;
+  text-align: center;
+  line-height: 1.6rem;
+  font-weight: 300;
+  padding: 30px 0px;
+}
+
+.btm-border {
+  margin-left: 81px;
+  margin-right: 81px;
+  width: 378px;
+  height: 1px;
+  display: block;
+  font-weight: 300;
+  line-height: 1.6em;
+  font-size: 14px;
+  text-align: start;
+  text-size-adjust: 100%;
+  border-bottom: 1px solid #e2e4e4;
+}
+
+.educacion__h3 {
+  font-weight: 600;
+}
+
+.educacion__h4 {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+/*---iconos-*/
+.hab_icono {
+  padding-bottom: 1rem;
+}
+
+/* --- CONTACTO --- */
+
+.section-contact {
+  border-radius: 15px;
+  width: 170px;
+  display: inline-block;
+}
+
+.form-group {
+  text-align: left;
+  padding: 0.75rem 1rem 0.25rem;
+  border-radius: 0.5rem;
+  color:rgb(36, 35, 41);
+}
+
+.form-control {
+  display: block;
+  margin-top: 0em;
+  --bs-gutter-x: 1rem;
+  --bs-gutter-y: 0;
+  background-color: rgb(240,238,252);
+  font-size: 13px;
+  border-radius: 0.5rem;
+  padding: 0.25rem 0.5rem 0rem;
+  width: 100%;
+  border: none;
+  line-height: 4rem;
+  color: rgb(251, 251, 254);
+}
+
+.contacto__label {
+  cursor: default;
+  font-size: 15px;
+}
+
+/* --- FOOTER --- */
+.footer {
+  
+  flex-direction: row;
+  justify-content: space-evenly;
+  float: none;
+  position: relative;
+  align-items: center;
+  display: block;
+  padding-top: 2rem;
+  background-color: rgb(110, 87, 224); 
+  }
+
+.footer__links {
+  font-size: 16px;
+  display: flex;
+  height: auto;
+  width: auto;
+  flex-direction: row;
+  text-decoration-style: solid;
+  text-decoration-line: none;
+  gap: 2rem;
+  list-style-type: none;
+  padding-left: 10%;
+  column-gap: 32px;
+  row-gap: 24px;
+
+}
+
+.nombrelg {
+  display: inline;
+  color: white;
+}
+
+.footer__link {
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.footer__titulo {
+  font-size: 36px;
+  color: white;
+}
+
+.footer__row {
+  margin-left: 110px;
+  margin-right: 110px;
+  max-width: 100%;
+}
+
+.footer__socials {
+  display: inline-flex;
+  flex-direction: row;
+  column-gap: 2rem;
+}
+
+.footer__social {
+  display: inline-flex;
+  color: white;
+}
+
+.bi-twitter,
+.bi-github,
+.bi-linkedin {
+  font-size: 30px;
+}
+
+.footer__copy {
+  text-align: center;
+  padding: 2rem;
+  color: white;
+}
+
+/* --- BOTONES --- */
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  border: none;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  opacity: 100%;
+  background-color: rgb(110, 87, 224);
+  color:white;
+}
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: transparent; /* Set a background color */
+  color: #e0a80d; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 65px; /* Increase font size */
+}
+
